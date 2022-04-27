@@ -47,11 +47,11 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 if(i==0) {
 
-                    startActivity(new Intent(MainActivity.this, Order3Activity.class));
+                    startActivity(new Intent(MainActivity.this, Order1Activity.class));
 
                 }
                 else if(i==1) {
-                    startActivity(new Intent(MainActivity.this, Order3Activity.class));
+                    startActivity(new Intent(MainActivity.this, Order2Activity.class));
                 }
                 else if(i==2){
                     startActivity(new Intent(MainActivity.this, Order3Activity.class));

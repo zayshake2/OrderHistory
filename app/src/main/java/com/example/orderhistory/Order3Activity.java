@@ -24,16 +24,7 @@ public class Order3Activity extends AppCompatActivity {
 
         Order_3 = (Button) findViewById(R.id.Order_3);
 
-        //List<String> ratings = new ArrayList<>();
-        //ratings.add(" ");
-        //ratings.add("Star Rating");
 
-
-
-
-        //ArrayAdapter arrayAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, ratings);
-
-        //Order_3.setAdapter(arrayAdapter);
 
         Order_3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,17 +34,7 @@ public class Order3Activity extends AppCompatActivity {
             }
         });
 
-       /* Order_3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                if(i==1) {
 
-                    startActivity(new Intent(Order3Activity.this, RateOrder3.class));
-
-                }
-
-            }
-        });*/
 
 
     }
